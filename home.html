@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Funland Website </title>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Cuprum" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+	
+
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+  <!--JQuery Countdown Timer -->
+
+
+  <!--JQuery Countdown Timer -->
+
+	<style>
+
+   #infinity {
+      position: relative;
+      width: 212px;
+      height: 100px;
+      box-sizing: content-box;
+    }
+    #infinity:before,
+    #infinity:after {
+      content: "";
+      box-sizing: content-box;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 50px;
+      height: 50px;
+      border: 20px solid #2dc1e1;
+      border-radius: 50px 50px 0 50px;
+      transform: rotate(-45deg);
+    }
+    #infinity:after {
+      left: auto;
+      right: 0;
+      border-radius: 50px 50px 50px 0;
+      transform: rotate(45deg);
+    }
+
+
+  </style>
+	
+</head>
+<body>
+	
+
+
+<!-- Navbar Start -->
+	
+	<nav class="navbar navbar-expand-lg navbar-light bg-white" style="font-family: 'Cuprum', sans-serif; font-size: 25px;">
+  <img src="1.png"style="margin-left: 50px; margin-top: 25px; height: 120px; width: 120px;">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarColor03">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" style="margin-left: 85px;" href="home.html">HOME <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="home1.html">ACTIVITIES</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="attractions.html">ATTRACTIONS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">ABOUT</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="infomap.html">INFO MAP</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Navbar	Finish -->
+
+<!-- Image Slider Start -->
+
+ <div class="container-fluid" style="font-family: 'Cuprum', cursive !important;">
+
+  <div id="carouselExampleIndicators" class="carousel slide" style="margin-top: 40px;" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  
+    
+  </ol>
+  <div class="carousel-inner">
+
+  	<div class="carousel-item active">
+     <img class="d-block w-70 h-300" style="height: 500px; margin-left: 250px;" src="koster1.png" alt="First slide">
+       <div class="carousel-caption d-none d-md-block">
+    <h3></h3>
+    <p></p>
+  </div>
+    </div>
+
+    <div class="carousel-item">
+
+     <center> <h3 style="color: black; font-size: 60px; margin-top: 30px;"> WELCOME TO FUNLAND !</h3> </center>
+    <center> <button class="btn mt-3" style="background-color: #ffca00"> <h3 style="color: black; font-size: 25px; "> NEW OPPENING - <span style="font-weight: bold;" > 1 DECEMBER 2019  </span> <i class="fas fa-hat-wizard"></i></h3> </center> </button>
+     <img class="d-block w-90 " style="height: 320px; margin-left: 350px;" src="koster2.png" alt="First slide">
+       <div class="carousel-caption d-none d-md-block">
+    <p></p>
+  </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100 h-300" style="height: 500px; margin-left: 180px;" src="wintermagic.png" alt="Second slide">
+       <div class="carousel-caption d-none d-md-block">
+    <h4></h4>
+    <p></p>
+  </div>
+
+
+    </div>
+    
+    
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+ </div>
+
+<!-- Image Slider Finish -->
+
+<!-- First Box Start-->
+	<div class="row mt-5" style="background-color:#ffca00; height: 180px; font-family: 'Cuprum', cursive !important; ">
+		<div class="col-6">
+			<p style="color: black; font-size: 50px; margin-top: 30px; margin-left: 90px;" > MAGIC KINGDOM. </p>
+
+		</div>
+
+		<div class="col-6">
+			<p style="color: black; font-size: 25px; margin-top: 30px; margin-left: 20px;"> Enter a magical enchanted kingdom. <br> You will feel magic in the air. </p>
+		</div>
+	</div>
+
+
+<!-- First Box Finish-->
+
+<!-- Second Box Finish-->
+
+<div class="row" style="; height: 500px; font-family: 'Cuprum', cursive !important;  ">
+		<div class="col-6">
+			<button style="color: white; font-size: 30px; margin-top: 30px; margin-left: 70px; background-color: black; border: none;" > FOR A LIFETIME! </button>
+
+      <p style="color: black; font-size: 60px; margin-top: 30px; margin-left: 70px; font-weight: bold;" > A LAND LIKE </br> NO OTHER </p>
+
+      <p style="color: black; font-size: 25px; margin-top: 10px; margin-left: 70px; " > Make history. <span style="font-weight: bold;"> Find out more. </span> </p>
+
+		</div>
+
+		<div class="col-6"  style="background-color:#d62d20;">
+
+      <center> <img src="icon3.png" style="width: 50px; height: 50px; margin-top: 30px;"></center>
+
+			<p style="color: white; font-size: 65px; margin-top: 10px; margin-left: 95px; font-weight: 1000;"> KEEP IN THE LOOP </p>
+
+       <p style="color: white; font-size: 18px; margin-top: 5px; margin-left: 10px; text-align: center"> Home to over 30 thrilling rides, attractions & live events. FUNLAND Park Resort is the ultimate destination for thrill seekers featuring some of the world's most popular roller coasters. </p>
+
+       <button style="padding: 10px; color: white; font-size: 20px; margin-top: 20px; margin-left: 160px; background-color: transparent; border: solid white 1px;" > JOIN THE FUNLAND </button> 
+		</div>
+	</div>
+
+
+
+<!-- Second Box Finish--> 
+
+<!-- Third Box Start-->
+
+  <div class="row" style="background-color:#2dc1e1; height: 500px; font-family: 'Cuprum', cursive !important;  ">
+    <div class="col-6">
+
+      <p style="color: white; font-size: 60px; margin-top: 80px; margin-left: 50px; font-weight: bold; line-height: 1" > CLICK BELLOW <br> <span class="underline"
+}">TO SEE </span> <br> OUR <br> ATRACTIONS
+       </p>
+
+          <a href="home1.html" style="color: white; font-size: 18px; font-weight: 0.5; margin-top: 5px; margin-left: 60px; text-decoration: underline;">Rides & Attractions </a>
+
+    </div>
+
+    <div class="col-6">
+      <p style="color: black; font-size: 25px; margin-top: 30px; margin-left: 20px;">  </p>
+    </div>
+  </div>
+
+
+
+<!-- Third Box Finish--> 
+
+
+<!-- Fourth Box Start -->
+<div class="col-12 ml-5 mr-5 ">
+<div class="row p-2 d-flex justify-content-between" style="font-family: 'Cuprum', cursive !important;">
+  <div class="col-4">
+    <div class="card" style="width: 18rem;">
+      <div class="ml-5" id="infinity" style="margin-top: 70px; width: 180px; height: 100px;" ></div>
+        <div class="card-body">
+          <h5 class="card-title ml-5" style="font-size: 33px; ">EVERYONE</h5> 
+          <p class="card-text ml-4"  style="font-size: 20px;">A Magic land is ready to enchant EVERYBODY. <br> See what's happening at FUNWORLD now. </p>
+          <a href="#" class="btn btn-primary ml-4">FUNLAND MAGICLAND</a>
+      </div>
+  </div>
+</div>
+
+    <div class="col-4" style="font-family: 'Cuprum', cursive !important;">
+    <div class="card" style="width: 18rem; style="">
+      <div class="ml-5" style="margin-top: 70px; width: 180px; height: 100px;" > <i class="fas fa-heart" style="font-size: 100px; margin-left: 30px; color: #ff0000"></i></div>
+      
+        <div class="card-body">
+          <h5 class="card-title" style="font-size: 33px;">EXPLORE FUNLAND</h5>
+          <p class="card-text"style="font-size: 20px;"> We wait you with the most magical experience of all time. Choose the magical world which most excites you! </p>
+          <a href="#" class="btn btn-primary ml-4">EXPLORE IT NOW WITH US</a>
+      </div>
+  </div>
+</div>
+
+
+
+    <div class="col-4" style="font-family: 'Cuprum', cursive !important;">
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="dis.jpg" style="width: 280px; height: 180px;alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title ml-4" style="font-size: 33px;">ENTERTAINMENT</h5>
+          <p class="card-text" style="font-size: 20px;"> Our various entertainers will be performing live, interactive shows that all park guests can partake in.</p>
+          <a href="#" class="btn btn-primary ml-4">FUNLAND MAGICLAND</a>
+      </div>
+  </div>
+</div>
+</div>
+</div>
+<!-- Fourth Box Finish -->
+
+
+
+
+<!-- Quote Box Start-->
+  <div class="row mt-5" style="background-color:white; height: 180px; font-family: 'Cuprum', cursive !important;  ">
+      <div class="col-12">
+      <p style="color: black; font-size: 45px; margin-top: 30px; margin-left: 250px;"> There was something <i> beneath </i> the surface of things. </p>
+    </div>
+  </div>
+<!-- Quote Box Finish-->
+
+<hr style="border 1.5px solid #fff">
+
+<!-- Countdown Box Start-->
+<div class="row" >
+      <div class="col-12" style="text-align: center; font-family: 'Cuprum', cursive !important; ">
+        <h1 style="letter-spacing: 13px;"> COMING SOON  </h1>
+          <p id="demo" style="font-size: 70px; color: #383838; font-weight: lighter; text-align: center;"></p>
+          <p style="font-size:20px;"> -Stay Up To Date- </p>
+      
+      <script>
+     // Set the date we're counting down to
+var countDownDate = new Date("Jan 5, 2019 15:37:25").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+    // Get todays date and time
+    var now = new Date().getTime();
+    
+    // Find the distance between now and the count down date
+    var distance = countDownDate - now;
+    
+    // Time calculations for days, hours, minutes and seconds
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+    // Output the result in an element with id="demo"
+    document.getElementById("demo").innerHTML = days + "d " + "| " + hours  + "h " +  "| "
+    + minutes + "m " +  "| " + seconds + "s ";
+    
+    // If the count down is over, write some text 
+    if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("demo").innerHTML = "EXPIRED";
+    }
+}, 1000);
+
+      </script>
+
+        
+
+
+
+      </div>
+</div>
+<hr>
+
+<!-- Footer Start -->
+
+<footer class="page-footer font-small pt-4" style="background-color: white; font-family: 'Cuprum', cursive !important;">
+
+    <!-- Footer Links -->
+    <div class="container-fluid text-center text-md-left">
+
+      <!-- Grid row -->
+      <div class="row">
+
+        <!-- Grid column -->
+        <div class="col-md-4 mt-md-0 mt-3">
+
+          <!-- Content -->
+          <h5 class="text-uppercase ml-5"> <i class="fas fa-map-marker-alt"></i> &nbsp Find us</h5>
+          <p class="ml-5"> Bjelašnica, Babin Do b.b.  <br> Trnovo 71220 Sarajevo</p>
+
+        </div>
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none pb-3">
+
+        <!-- Grid column -->
+        <div class="col-md-3 mb-md-0 mb-3">
+
+            <!-- Links -->
+            <h5 class="text-uppercase"><i class="far fa-share-square"></i> &nbspSocial Media</h5>
+
+            <ul class="list-unstyled">
+              <li>
+                <p style="font-size: 30px;"> <i style="color: #3b5998;" class="fab fa-facebook-square"></i> <i style="color: #e1306c" class="fab fa-instagram"></i> <i style="color:#fffc00"class="fab fa-snapchat-square"></i> 
+                  <i <i style="color: #00aff0;" class="fab fa-skype"></i> <i <i style="color: #ff0000;"class="fab fa-youtube"></i></p>
+              </li>
+            </ul>
+
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 mb-md-0 mb-3">
+
+            <!-- Links -->
+            <h5 class="text-uppercase"> CONTACT US</h5>
+                <p> Info-Line | +38762225945 <br> infofunland@hotmail.com</p>
+                
+          </div>
+          <!-- Grid column -->
+
+      </div>
+      <!-- Grid row -->
+
+    </div>
+    <!-- Footer Links -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2018 Copyright:
+      <a href="home.html"> Funland.com</a>
+    </div>
+    <!-- Copyright -->
+
+  </footer>
+ 
+
+<!-- Footer Finish -->
+</body>
+</html>
